@@ -1,0 +1,3 @@
+server of openai details
+deployment id
+deployment-3c6db6402daa415ab46a16cc3adae389

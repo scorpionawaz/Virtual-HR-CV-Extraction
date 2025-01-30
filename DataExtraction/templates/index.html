@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NAWAZ AND PREM MICROPROJECT</title>
+    <link rel="stylesheet" href="/static/ind.css">
+
+</head>
+<body>
+  <!-- <header id="bb">
+    <nav>
+      <ul class="nav-links">
+        <li><h3>VIRTUAL HR :62 & 58</h3></li>
+        <li><h3 style="margin-left: 500px;"> Document Extraction (Structured, Unstructured, Freeform)</h3></li>
+        <img src="/static/GitHub-Mark.png" alt="GITHUB" id="logogit">
+
+      </ul>
+    </nav>
+
+  </header> -->
+
+  <header id="header1">
+    <nav class="navbar">
+      <div class="left-heading">
+        <h4>CV EXTRACTION</h4>
+      </div>
+      <div class="right-heading">
+        <h4>Document Extraction (Structured, Unstructured, Freeform)</h4>
+        <img src="/static/GitHub-Mark.png" alt="Logo">
+      </div>
+    </nav>
+  </header>
+  
+  <br>
+  <br>
+  <br>
+  <br>  <br>
+
+    <!-- <header id="c3">
+        <nav>
+          <div class="logo">
+            <img src="/static/logo.jpg" alt="Logo">
+            <h1 id="slo">IT THAT MAKES YOU COMPETITIVE</h1>
+          </div>
+          <ul class="nav-links">
+          </ul>
+        </nav>
+      </header> -->
+      <br>
+
+      <h1><a href="/open-file">Click to View CV</a></h1>
+
+      <br>
+      <h1>Extracted Data</h1>
+    <div id="json-container">
+      <table>
+        <thead>
+            <tr>
+                {% for column in data[0].keys() %}
+                    <th>{{ column }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+                <tr>
+                    {% for value in row.values() %}
+                        <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+body {
+  background-color: rgb(217, 232, 237);
+}
+
+/* of container  */
+#json-container {
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 40px ;
+  margin-right: 40px ;
+  padding: 40px;
+  border-radius: 20px;
+  color: #3c3c3c;
+  box-shadow: 0px 0px 20px -0.10px rgba(0, 0, 0, 0.641);
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 14px;
+  }
+}
+
+/* code for gpt */
+#header1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2a2a2a;
+  padding: 10px 20px;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.left-heading h4 {
+  font-family: sans-serif;
+  margin: 0;
+  color: #ffffff;
+
+}
+
+.right-heading {
+  display: flex;
+  align-items: center;
+}
+
+.right-heading h4 {
+  font-family: sans-serif;
+  margin-right: 10px;
+  color: #ffffff;
+
+}
+
+.right-heading img {
+  width: 45px;
+  height: 45px;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+
+/* gpt */
+#c3 {
+  size: 10%;
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 20px -0.10px rgba(0, 191, 255, 0.641);
+
+}
+
+.logo img {
+  width: 150px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  
+}
+
+.nav-links li {
+  margin-top: -10px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#slo {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: -80px;
+  margin-left: 70%;
+  color: #949494;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  font-family: Verdana;
+  color: #2b2b2b;
+  font-size: 30px;
+
+}
+
+h3,
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#logogit {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  vertical-align: middle;
+margin-left: -30px;
+}

@@ -1,0 +1,34 @@
+Name :
+Nawaz
+Address:
+Islampur,sangli
+Phone:9422019956 
+Email:nzwzad@email.com
+Education:
+- Bachelor of Science in Computer Science.
+University:
+-Gpkp University
+Address:
+-kolhapur
+Graduation Date:
+-May 2005
+Skills:
+- Proficient in Python, Java, and C++ 
+- Experience with Django, Ruby on Rails, MySQL, and MongoDB
+- Strong problem-solving and analytical abilities
+- Excellent communication and teamwork skills
+Experience:
+- Software Developer Intern at ABC Company, City, State (June 20XX - August 20XX)
+   - Collaborated with a team to develop and maintain a web application using Django framework
+   - Assisted in debugging and code review processes 
+   - Contributed to the implementation of new features and enhancements
+Projects:
+- E-commerce Website
+- Inventory Management System
+Certifications:
+- Certified Python Developer (Python Institute)
+- Oracle Certified Java Programmer
+Languages:
+- English (Fluent)
+- Spanish (Intermediate)
+
